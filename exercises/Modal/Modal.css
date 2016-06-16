@@ -1,3 +1,15 @@
 @import '../variables.css';
 
+/*
+
+Add to `height: 100%;` .Modal
+
+Add:
+
+@media (--breakpoint-sm) {
+  .Modal { height: 75%; }
+}
+
+*/
+
 .Modal { }
