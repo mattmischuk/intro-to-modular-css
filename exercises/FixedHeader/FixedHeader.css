@@ -1,4 +1,9 @@
 @import '../variables.css';
 
-.FixedHeader { }
-.Main { }
+
+/*
+  Add height: var(--header-height); to .FixedHeader
+  then add the offset top margin with the same variable to .Main
+*/
+.FixedHeader { height: var(--header-height); }
+.Main { margin-top: var(--header-height); }
