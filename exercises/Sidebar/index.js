@@ -5,6 +5,9 @@ import './Sidebar.css';
 const Sidebar = () => {
   return (
     <div>
+      {/*
+        fixed top-0 bottom-0 left-0
+      */}
       <aside className="bg-aqua Sidebar">
         <h3 className="caps bold navy px2">Sidebar</h3>
         <ul className="list-reset navy">

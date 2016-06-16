@@ -1,4 +1,9 @@
 @import '../variables.css';
 
+/*
+  Add `width: var(--sidebar-width);` to .Sidebar
+  Add `margin-left: var(--sidebar-width);` to .Sidebar__body
+*/
+
 .Sidebar { }
 .Sidebar__body { }
